@@ -1,0 +1,123 @@
+.mainclass{
+    margin: 0;
+    padding: 0;
+}
+.h1{
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+.p{
+    font-weight: 300;
+    font-style: italic;
+    width: 80vw;
+    font-size: 1rem;
+}
+.p:hover{
+    cursor: default;
+    -webkit-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    transform: scale(1.08);
+}
+.otherdiv{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.otherotherdiv{
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.otherindiv{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 10%;
+    overflow: hidden;
+}
+.otherdiv img{
+    padding: 5vw;
+}
+.otherdiv img:hover{
+    cursor: pointer;
+}
+.anotherdiv{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+.anotherdiva{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.anotherdivb{
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.anotherdivb h2{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    
+}
+.anotherdivb h4{
+    padding-top: 0;
+    margin-top: 0;
+    font-weight: 400;
+}
+.anotherdivc{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 10%;
+    overflow: hidden;
+}
+.anotherdiv img{
+    padding: 5vw;
+}
+.anotherdiv img:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-height: 700px){
+    .p{
+        font-size: 0.8rem;
+    }
+    .p:hover{
+        -webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        transform: scale(1.03);
+    }
+}
+
+@media (max-width:450px){
+    .p{
+        font-size: 0.70rem;
+    }
+    .p:hover{
+        -webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        transform: scale(1.03);
+    }
+    .anotherdivb{
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .anotherdivb h4{
+        text-align: center;
+    }
+}

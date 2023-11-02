@@ -1,0 +1,491 @@
+.o{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.title{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: bold;
+    border-bottom: 1px white solid;
+}
+.totalitem{
+    font-family: inherit;
+    font-weight: 700;
+    padding-top: 2vh;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+.datawrap{
+  height: 52vh;
+  width: 80%;
+  padding: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+  overflow-y: scroll;
+  margin: 0;
+  margin-top: 4vh;
+}
+.data{
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 3vh;
+}
+.dataA{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dataA3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  font-weight:bolder;
+  font-size: 1rem;
+}
+.dataA2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5%;
+}
+.dataA1{
+  display: flex;
+  align-items: center;
+  width: 80%;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.dataB{
+  width: 100%;
+  height: 0.05vh;
+  border-top: 0.5px white solid;
+  opacity: 0.6;
+}
+.dataC{
+  font-weight: 250;
+  font-size: 1rem;
+}
+.datawrap2{
+  height: 10vh;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  opacity: 0.7;
+}
+.datawrap211{
+  padding: 10px;
+  border: 1px solid white;
+}
+.datawrap3{
+  margin-top: 4vh;
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+}
+.datawrap31{
+  padding-left: 10%;
+}
+.submitbutton{
+  padding-right: 10%;
+}
+.submitbutton img {
+  transform: rotate(-90deg);
+}
+
+.forme{
+  background-color: black;
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 90%;
+}
+.address{
+  margin-top: 2vh;
+  height: 16vh;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  opacity: 1;
+}
+.address1{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.address11{
+  height: 5vh;
+  font-size: 2rem;
+  font-family: inherit;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.address12{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+}
+.address12 input{
+  margin: 0;
+}
+.address12 .form-control {
+  background-color: black;
+  color: white;
+  border: 1px white solid;
+  border-radius: 10px;
+  height: 1.5rem; /* added left padding to accommodate icon */
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+  font-family: inherit;
+  font-size: 1.2rem;
+  width: 40vw;
+  text-align: center;
+}
+.address12 .form-control::placeholder {
+  text-align: center;
+}
+/* .address2{
+  height: 0.05vh;
+  width: 100%;
+  border-top: 0.01vh white solid;
+} */
+/* .instructionstitle{
+  font-size: 1.5rem;
+  padding-top: 1vh;
+  height: 5vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: inherit;
+  font-weight: bold;
+  border-bottom: 0.01vh white solid;
+} */
+.tpspace{
+  padding-top: 2vh;
+  height: 0vh;
+}
+.schedule{
+  height: 20vh;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 2;
+}
+.schedule .form-control {
+  background-color: black;
+  color: white;
+  border: 1px white solid;
+  border-radius: 10px;
+  height: 1.5rem; /* added left padding to accommodate icon */
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+  font-family: inherit;
+  font-size: 1.2rem;
+  width: 20vw;
+  text-align: center;
+}
+.schedule .form-control::placeholder {
+  text-align: center;
+}
+.schedule1, .schedule2, .schedule3{
+  height: 5vh;
+}
+.schedule2, .schedule3{
+  height: 7vh;
+  display: flex;
+  opacity: 1;
+}
+.schedule1{
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.instructionsdet{
+  margin-top: 2vh;
+  height: 15vh;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; 
+}
+.instructionsdet1{
+  height: 5vh;
+}
+.instructionsdet2{
+  height: 7vh;
+}
+.instructionsdet1{
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.instructionsdet .form-control {
+  background-color: black;
+  color: white;
+  border: 1px white solid;
+  border-radius: 10px;
+  height: 1.5rem; /* added left padding to accommodate icon */
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+  font-family: inherit;
+  font-size: 1.2rem;
+  width: 40vw;
+  text-align: center;
+}
+.instructionsdet .form-control::placeholder {
+  text-align: center;
+}
+.btnn{
+  margin-top: 2vh;
+  height: 8vh;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  opacity: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+}
+.finalbutton{
+  margin-top: 6vh;
+  height: 15vh;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  opacity: 0.5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; 
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: inherit;
+}
+.finalbutton .submitbutton{
+  padding: 0;
+}
+.goodbyemessage{
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: inherit;
+  justify-content: space-around;
+  align-content: center;
+  text-align: center;
+}
+
+
+@media (max-width : 600px ) {
+  .dataA3{
+    font-weight:bolder;
+    font-size: 0.85rem;
+  }
+  .dataA1{
+    font-size: 0.85rem;
+  }
+  .dataC{
+    font-size: 0.7rem;
+  }
+  .address11{
+    font-size: 1.3rem;
+  }
+  .address12 .form-control {
+    height: 0.8rem; /* added left padding to accommodate icon */
+    font-family: inherit;
+    font-size: 0.8rem;
+    width: 70vw;
+  }
+  .schedule .form-control {
+    height: 0.8rem; /* added left padding to accommodate icon */
+    font-size: 0.8rem;
+    width: 40vw;
+  }
+  .schedule1, .schedule2, .schedule3{
+    height: 7vh;
+  }
+  .schedule2, .schedule3{
+    height: 6vh;
+    display: flex;
+    opacity: 1;
+  }
+  .schedule1{
+    font-size: 0.80rem;
+    font-weight: 700;
+  }
+  .instructionsdet1{
+    font-size: 0.85rem;
+    font-weight: 700;
+  }
+  .instructionsdet .form-control {
+    font-size: 0.8rem;
+    width: 70vw;
+    height: 0.8rem;
+  }
+}
+
+
+
+
+
+.form-control {
+  background-color: #747474;
+  color: #E5E5E5;
+  border: none;
+  border-radius: 20px;
+  padding: 12px 10px 10px 12px; /* added left padding to accommodate icon */
+  margin-bottom: 20px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  font-family: inherit;
+  font-size: 1rem;
+}
+.form-control::placeholder {
+  color: #B3B3B3;
+}
+
+/* Button styles */
+.button {
+  border: none;
+  background-color: #2f80ed;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #1f5da5;
+}
+
+.button:disabled {
+  background-color: #bdc3c7;
+  cursor: default;
+}
+/* Button styles ends */
+
+/* Button this starts*/
+.button_86 {
+  all: unset;
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: 900;
+  height: 30px;
+  background: transparent;
+  border: none;
+  position: relative;
+  color: #f0f0f0;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button_86::after,
+.button_86::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+.button_86::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #28282d;
+  border-radius: 10px;
+}
+.button_86::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff15;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+.button_86:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+.button_86:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+.button_86:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
+/* Button this starts*/

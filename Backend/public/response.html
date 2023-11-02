@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+
+		form {
+			margin: auto;
+			padding: 20px;
+			background-color: white;
+			border: 1px solid #ccc;
+			box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+			max-width: 500px;
+		}
+
+		label {
+			display: inline-block;
+			margin-bottom: 10px;
+			font-weight: bold;
+		}
+    label[for="response"] {
+      display: block;
+      text-align: center;
+      font-size: 24px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+
+		input[type="input"],
+		input[type="email"],
+		input[type="password"],
+		input[type="submit"],
+		input[type="radio"] {
+			display: block;
+			width: 100%;
+			padding: 10px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			box-sizing: border-box;
+			font-size: 16px;
+			margin-bottom: 20px;
+			background-color: #fff;
+		}
+
+		input[type="radio"] {
+			display: inline-block;
+			width: auto;
+			margin-right: 10px;
+		}
+
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: white;
+			cursor: pointer;
+		}
+
+		input[type="submit"]:hover {
+			background-color: #45a049;
+		}
+
+		@media screen and (max-width: 600px) {
+			form {
+				margin-top: 50px;
+			}
+		}
+
+	</style>
+</head>
+<body>
+	<form method="POST" action="http://localhost:3000/api/v1/order/order/response/">
+		<label for="response">Please Enter Your Response</label>
+		<input type="input" id="orderID" name="orderID" placeholder="Enter Order ID">
+		<div>
+			<input type="radio" id="approve" name="response" value="approve">
+			<label for="approve">Approve</label>
+		</div>
+		<div>
+			<input type="radio" id="decline" name="response" value="decline">
+			<label for="decline">Decline</label>
+		</div>
+		<input type="email" id="EmailID" name="EmailID" placeholder="Enter Email ID">
+		<input type="password" id="password" name="password" placeholder="Password">
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title>Approval Form</title>
+</head>
+  <body>
+  	<form method="POST" action="http://localhost:3000/api/v1/order/order/response/">
+  		<label for="response"><strong>Response:</strong></label><br>
+      <label for="orderID"><strong>Enter Order ID:</strong></label><br>
+  		<input type="input" id="orderID" name="orderID"><br><br>
+  		<input type="radio" id="approve" name="response" value="approve">
+  		<label for="approve">Approve</label><br>
+  		<input type="radio" id="decline" name="response" value="decline">
+  		<label for="decline">Decline</label><br><br>
+      <label for="EmailID"><strong>Enter Email ID:</strong></label><br>
+  		<input type="email" id="EmailID" name="EmailID"><br><br>
+  		<label for="password"><strong>Password:</strong></label><br>
+  		<input type="password" id="password" name="password"><br><br>
+  		<input type="submit" value="Submit">
+  	</form>
+  </body>
+</html> -->
+
+
+<!--<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Order Response Form</title>
+  </head>
+  <body>
+    <form method="POST" action="http://localhost:3000/api/v1/users/order/response/1234>
+        <div>
+          <label>Order ID:</label>
+          <span id="orderId"></span>
+        </div>
+        <div>
+          <label>Response:</label>
+          <input type="radio" name="response" value="yes">Yes</input>
+          <input type="radio" name="response" value="no">No</input>
+        </div>
+        <div>
+          <label>Password:</label>
+          <input type="password" id="password">
+        </div>
+        <button type="submit" id="submit-button">Submit</button>
+      </form>
+      <div id="response-container"></div>
+      
+  </body>
+</html> -->
+
+<!-- <script src="http://localhost:3000/api/v1/users/order/responseForm/script.js"></script> -->
+<!--method="POST" action="http://localhost:3000/api/v1/users/order/response/1234"-->

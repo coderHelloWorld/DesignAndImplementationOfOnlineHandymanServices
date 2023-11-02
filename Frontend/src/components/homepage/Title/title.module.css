@@ -1,0 +1,40 @@
+.hometitle{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif; 
+    font-weight: 900;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.typing{
+    width: 80vw;
+    align-self: flex-end;
+} 
+.extra{
+    font-size: 1.5rem;
+    font-weight: 300;
+    width: 80vw;
+    align-self: flex-start;
+}
+.title{
+    padding: 0;
+    padding-top: 0vh;
+    margin: 0;
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.title p{
+    padding: 0;
+    padding-left: 7vw;
+    padding-top: 2.5vh;
+    margin: 0;
+    font-size: 3.5vh;
+    font-weight: 900;
+}

@@ -1,0 +1,104 @@
+.all{
+    margin: 0px;
+    padding: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 200vh;
+
+}
+/*.top{
+    padding-top: 6rem;
+}*/
+.hel{
+    color:white;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 900;
+    background-color: rgb(17, 1, 4);
+    margin: 0px;
+    width: 100%;
+}
+.ondiv{
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: repeat(3, 7vh);
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    font-size: 1rem;
+    width: 100%;
+}
+.lab1{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    justify-self: end;
+    padding-right: 7.5px;
+}
+.lab2{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    justify-self: end;
+    padding-right: 7.5px;
+}
+.inp1{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    justify-self: start;
+    margin-left: 7.5px;
+}
+.inp2{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    justify-self: start;
+    margin-left: 7.5px;
+}
+.btn{
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+} 
+
+@media screen and (max-width: 500px){ 
+    .hel{
+        font-size: 1.5rem;
+        margin: 0px;
+    }
+    .ondiv{
+        display: grid;
+        grid-template-columns: repeat(1, 40vw);
+        grid-template-rows: repeat(5, 3vh);
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        font-size: .75rem;
+    }
+    .lab1{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        justify-self: center;
+    }
+    .lab2{
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        justify-self: center;
+    }
+    .inp1{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        justify-self: center;
+    }
+    .inp2{
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+        justify-self: center;
+    }
+    .btn{
+        grid-column: 1 / 2;
+        grid-row: 5 / 6;
+        height: 3vh;
+        margin-top: 1.5vh;
+    }
+}
+
+/* CSS */
